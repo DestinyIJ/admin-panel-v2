@@ -4,7 +4,13 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Karla: ["Karla", "sans-serif"],
+        SourceSanPro: ["Source Sans Pro", "sans-serif"],
+        Tapestry: ["Tapestry", 'cursive']
+       },
+    },
   },
   plugins: [],
 }
